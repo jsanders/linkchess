@@ -3,8 +3,10 @@
   width: 800px;
   margin-top: 30px; }
 
-.board {
-  margin-left: 224px;
+.board-wrap {
+  width: 512px;
+  float: left;
+  margin-left: 100px;
   /* Pretty border around board */
   box-shadow: 0 0 7px #bbb;
   -moz-box-shadow: 0 0 7px #bbb;
@@ -12,9 +14,17 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  -moz-border-radius: 5px; }
+
+.squares {
   /* No spacing between table cells */
   border-spacing: 0; }
+
+.pieces-wrap {
+  margin-left: 50px;
+  margin-top: 64px;
+  border: 1px #fff;
+  float: left; }
 
 .square {
   padding: 0;
