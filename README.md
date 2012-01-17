@@ -11,8 +11,8 @@ It's super simple to see this working, just download this repository and open in
 Try It!
 --------
 
-  - [Starting position](http://qwerpo.com/chessposition/index.html?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR)
-  - [After typical 1. e4 e5 opener](http://qwerpo.com/chessposition/index.html?fen=rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR)
-  - [Interesting position that inspired this project - white is way ahead but can't win with black to move!](http://qwerpo.com/chessposition/index.html?fen=2r5/1QPR1pkp/6p1/p7/4P3/P5PP/7K/5q2)
+  - [Starting position](http://www.linkchess.com/index.html?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR)
+  - [After typical 1. e4 e5 opener](http://www.linkchess.com/index.html?fen=rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR)
+  - [Interesting position that inspired this project - white is way ahead but can't win with black to move!](http://www.linkchess.com/index.html?fen=2r5/1QPR1pkp/6p1/p7/4P3/P5PP/7K/5q2)
 
 Fun!
