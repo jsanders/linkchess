@@ -33,9 +33,29 @@
     });
   }
 
+  function bindDragAndDrop() {
+    $('.board-wrap .piece').draggable({ revert: 'invalid' });
+    $('.pieces-wrap .piece').draggable({ revert: 'invalid', helper: 'clone' });
+
+    $('.square').droppable({
+      drop: function(event, ui) {
+        var dropElement = ui.draggable;
+        if(dropElement.draggable('option', 'helper') == 'clone') {
+          dropElement = dropElement.clone();
+          dropElement.draggable({ revert: 'invalid' });
+        } else {
+          dropElement.css({ 'left': '0px', 'top': '0px' });
+        }
+
+        $(this).append(dropElement);
+      }
+    });
+  }
+
   $(document).ready(function (){
     // Use position from query or default to standard starting position
     var fen = $.url().param('fen') || 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
     parseFen(fen);
+    bindDragAndDrop();
   });
 })();
